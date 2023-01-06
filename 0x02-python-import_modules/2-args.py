@@ -4,11 +4,11 @@ if __name__ == "__main__":
 
     argv_len = (len(argv) - 1)
 
-    if argv_len <= 0:
-        print(f"{argv_len} arguments.")
+    if argv_len == 0:
+        print(f"0 arguments.")
     elif argv_len == 1:
-        print(f"{argv_len} argument:")
-        print(argv[argv_len])
+        print(f"1 argument:")
+        print(f"1: {argv[argv_len]}")
     else:
         print(f"{argv_len} arguments:")
         for i in range(argv_len):
