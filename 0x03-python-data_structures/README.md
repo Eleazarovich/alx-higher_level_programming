@@ -11,13 +11,13 @@
 - [x] Task 3
 - [x] Task 4
 - [x] Task 5
-- [ ] Task 6
-- [ ] Task 7
-- [ ] Task 8
-- [ ] Task 9
-- [ ] Task 10
-- [ ] Task 11
-- [ ] Task 12
+- [x] Task 6
+- [x] Task 7
+- [x] Task 8
+- [x] Task 9
+- [x] Task 10
+- [x] Task 11
+- [x] Task 12
 - [ ] Task 13
 
 * Advanced
