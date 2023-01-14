@@ -1,7 +1,7 @@
 # 0x00-python-hello_world
 
 ---
-* Hello, World! These are my first python projects at ALX :)
+* Python - Hello, World
 ---
 ## Tasks
 * Mandatory
@@ -15,7 +15,7 @@
 - [x] Task 7
 - [x] Task 8
 - [x] Task 9
-- [ ] Task 10
+- [x] Task 10
 
 * Advanced
 - [x] Task 11
