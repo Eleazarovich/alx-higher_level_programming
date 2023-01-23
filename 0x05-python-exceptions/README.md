@@ -12,7 +12,7 @@
 - [x] Task 5
 - [x] Task 6
 * Advanced
-- [ ] Task 7
-- [ ] Task 8
+- [x] Task 7
+- [x] Task 8
 - [ ] Task 9
 - [ ] Task 10
