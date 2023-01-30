@@ -11,3 +11,4 @@
 * 0x05-python-exceptions
 * 0x06-python-classes
 * 0x07-python-test_driven_development
+* 0x08-python-more_classes
