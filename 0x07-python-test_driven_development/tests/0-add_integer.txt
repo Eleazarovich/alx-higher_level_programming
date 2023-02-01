@@ -1,0 +1,96 @@
+the ``0-add_integer.py`` module
+===============================
+
+using ``add_integer``
+---------------------
+
+``add_integer`` returns the addition of two integers.
+
+importing the module:
+	>>> add_integer = __import__("0-add_integer").add_integer
+
+checking positive integers:
+	>>> add_integer(5, 5)
+	10
+	>>> add_integer(500300, 100200)
+	600500
+	>>> add_integer(1000000, 6000000)
+	7000000
+
+checking negative integers:
+	>>> add_integer(-5, -5)
+	-10
+	>>> add_integer(-500300, -100200)
+	-600500
+	>>> add_integer(-1000000, -6000000)
+	-7000000
+
+checking mixture of positive and negative integers:
+	>>> add_integer(-5, 5)
+	0
+	>>> add_integer(500300, -100200)
+	400100
+	>>> add_integer(1000000, -6000000)
+	-5000000
+
+checking positive floats:
+	>>> add_integer(5.8, 5.7)
+	10
+	>>> add_integer(500300.8900, 100200.900)
+	600500
+	>>> add_integer(1000000.0000, 6000000.12)
+	7000000
+
+checking negative floats:
+	>>> add_integer(-5.8, -5.7)
+	-10
+	>>> add_integer(-500300.988, -100200.7623417)
+	-600500
+	>>> add_integer(-1000000.1, -6000000.90)
+	-7000000
+
+checking mixture of positive and negative floats:
+	>>> add_integer(-5.0, 5.8)
+	0
+	>>> add_integer(500300.123, -100200.345)
+	400100
+	>>> add_integer(1000000.908, -6000000.90)
+	-5000000
+
+checking if only one argument is passed:
+	>>> add_integer(6)
+	104
+	>>> add_integer(-6)
+	92
+	>>> add_integer(-8.678)
+	90
+
+checking if the arguments passed are not integer or float:
+	>>> add_integer([5], 6)
+	Traceback (most recent call last):
+		...
+	TypeError: a must be an integer
+
+	>>> add_integer(5, {6})
+	Traceback (most recent call last):
+		...
+	TypeError: b must be an integer
+
+	>>> add_integer("Boo", "Bae")
+	Traceback (most recent call last):
+		...
+	TypeError: a must be an integer
+
+	>>> add_integer([1, 2, 3, 4])
+	Traceback (most recent call last):
+		...
+	TypeError: a must be an integer
+
+	>>> add_integer(False, True)
+	1
+
+checking if no arguments were passed:
+	>>> add_integer()
+	Traceback (most recent call last):
+		...
+	TypeError: add_integer() missing 1 required positional argument: 'a'
