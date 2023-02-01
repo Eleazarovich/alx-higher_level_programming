@@ -4,37 +4,37 @@
 ---
 ## Tasks
 * Mandatory
-- [ ] Task 0
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
-- [ ] Task 4
-- [ ] Task 5
-- [ ] Task 6
-- [ ] Task 7
-- [ ] Task 8
-- [ ] Task 9
-- [ ] Task 11
-- [ ] Task 12
-- [ ] Task 13
-- [ ] Task 14
-- [ ] Task 15
-- [ ] Task 16
-- [ ] Task 17
-- [ ] Task 18
-- [ ] Task 19
-- [ ] Task 20
-- [ ] Task 21
-- [ ] Task 22
-- [ ] Task 23
-- [ ] Task 24
-- [ ] Task 25
-- [ ] Task 26
-- [ ] Task 27
-- [ ] Task 28
+- [x] Task 0
+- [x] Task 1
+- [x] Task 2
+- [x] Task 3
+- [x] Task 4
+- [x] Task 5
+- [x] Task 6
+- [x] Task 7
+- [x] Task 8
+- [x] Task 9
+- [x] Task 11
+- [x] Task 12
+- [x] Task 13
+- [x] Task 14
+- [x] Task 15
+- [x] Task 16
+- [x] Task 17
+- [x] Task 18
+- [x] Task 19
+- [x] Task 20
+- [x] Task 21
+- [x] Task 22
+- [x] Task 23
+- [x] Task 24
+- [x] Task 25
+- [x] Task 26
+- [x] Task 27
+- [x] Task 28
 * Advanced
-- [ ] Task 29
-- [ ] Task 30
+- [x] Task 29
+- [x] Task 30
 - [ ] Task 31
 - [ ] Task 32
 - [ ] Task 33
