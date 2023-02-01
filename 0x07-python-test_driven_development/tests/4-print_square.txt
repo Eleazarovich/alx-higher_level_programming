@@ -40,3 +40,9 @@ checking if size is a float and less than 0:
 	Traceback (most recent call last):
 		...
 	TypeError: size must be an integer
+
+checking if no argument was passed:
+	>>> print_sqaure()
+	Traceback (most recent call last):
+		...
+	TypeError: missing 1 required positional argument: 'size'
