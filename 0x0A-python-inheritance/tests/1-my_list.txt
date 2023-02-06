@@ -50,3 +50,26 @@ checking if more than one arguments were given:
 	>>> empty = MyList()
 	>>> empty.print_sorted()
 	[]
+
+checking negative numbers:
+	>>> check_list = MyList([-3001, -99, -579999, 0, -98167333, -222])
+	>>> check_list.print_sorted()
+	[-98167333, -579999, -3001, -222, -99, 0]
+
+Original list comparition:
+	>>> check_list = MyList([4, 21, 1, -14, 28, 180, 0])
+	>>> check_list.print_sorted()
+	[-14, 0, 1, 4, 21, 28, 180]
+	>>> check_list
+	[4, 21, 1, -14, 28, 180, 0]
+
+List already in order:
+	>>> check_list = MyList([-16, 0, 1, 5, 10, 32, 200])
+	>>> check_list.print_sorted()
+	[-16, 0, 1, 5, 10, 32, 200]
+
+	Test append:
+	>>> check_list = MyList()
+	>>> check_list.append(58)
+	>>> check_list
+	[58]
