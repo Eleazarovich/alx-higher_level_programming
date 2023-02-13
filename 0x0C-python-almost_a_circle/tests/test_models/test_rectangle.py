@@ -306,3 +306,7 @@ but 7 were given"
         rect_two = Rectangle(10, 20, 0, 0)
         dict_two = {'x': 0, 'y': 0, 'id': 1, 'height': 20, 'width': 10}
         self.assertEqual(rect_one.to_dictionary(), dict_one)
+
+
+if __name__ == "__main__":
+    unittest.main()
