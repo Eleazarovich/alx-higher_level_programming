@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-this script lists all states with a name starting with N (upper N)
-from the database hbtn_0e_0_usa
-"""
+"""this script lists all the states from the database hbtn_0e_0_usa"""
 import MySQLdb
 from sys import argv
 
@@ -28,5 +25,5 @@ def main():
 
 
 if __name__ == "__main__":
-    """this code won't run if this file is imported"""
+    """This code won't be run if this file is imported"""
     main()
